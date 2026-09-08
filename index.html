@@ -1,1 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>AION HUB</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <div class="logo">
+            AION <span>HUB</span>
+        </div>
+
+        <nav class="menu">
+            <button onclick="mostrarPagina('inicio')">Início</button>
+            <button onclick="mostrarPagina('ferramentas')">Ferramentas</button>
+            <button onclick="mostrarPagina('downloads')">Downloads</button>
+            <button onclick="mostrarPagina('afiliados')">Afiliados</button>
+            <button onclick="mostrarPagina('saas')">Micro-SaaS</button>
+            <button onclick="mostrarPagina('leads')">Leads</button>
+            <button onclick="mostrarPagina('dashboard')">Dashboard</button>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="pagina ativa">
+
+            <div class="hero">
+
+                <p class="tag">PLATAFORMA DIGITAL</p>
+
+                <h1>
+                    Bem-vindo ao <span>AION HUB</span>
+                </h1>
+
+                <p>
+                    Ferramentas, recursos digitais, serviços e soluções
+                    num único lugar.
+                </p>
+
+                <button class="botao-principal"
+                        onclick="mostrarPagina('ferramentas')">
+                    Explorar plataforma
+                </button>
+
+            </div>
+
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icone">🛠️</div>
+                    <h3>Ferramentas</h3>
+                    <p>Ferramentas úteis para o dia a dia.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">📦</div>
+                    <h3>Downloads</h3>
+                    <p>Recursos e produtos digitais.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">🔗</div>
+                    <h3>Afiliados</h3>
+                    <p>Produtos e serviços recomendados.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">🤖</div>
+                    <h3>Micro-SaaS</h3>
+                    <p>Ferramentas digitais premium.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">👥</div>
+                    <h3>Leads</h3>
+                    <p>Ligação entre clientes e profissionais.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">📊</div>
+                    <h3>Dashboard</h3>
+                    <p>Acompanhe o desempenho da plataforma.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FERRAMENTAS -->
+        <section id="ferramentas" class="pagina">
+
+            <h2>🛠️ Ferramentas</h2>
+
+            <p>
+                Aqui ficarão as ferramentas gratuitas do AION HUB.
+            </p>
+
+        </section>
+
+
+        <!-- DOWNLOADS -->
+        <section id="downloads" class="pagina">
+
+            <h2>📦 Downloads</h2>
+
+            <p>
+                Área destinada aos produtos e recursos digitais.
+            </p>
+
+        </section>
+
+
+        <!-- AFILIADOS -->
+        <section id="afiliados" class="pagina">
+
+            <h2>🔗 Afiliados</h2>
+
+            <p>
+                Aqui serão apresentados produtos e serviços de afiliados.
+            </p>
+
+        </section>
+
+
+        <!-- MICRO-SAAS -->
+        <section id="saas" class="pagina">
+
+            <h2>🤖 Micro-SaaS</h2>
+
+            <p>
+                Ferramentas premium e serviços automatizados.
+            </p>
+
+        </section>
+
+
+        <!-- LEADS -->
+        <section id="leads" class="pagina">
+
+            <h2>👥 Leads</h2>
+
+            <p>
+                Área para conectar clientes com profissionais.
+            </p>
+
+        </section>
+
+
+        <!-- DASHBOARD -->
+        <section id="dashboard" class="pagina">
+
+            <h2>📊 Dashboard</h2>
+
+            <div class="dashboard">
+
+                <div class="stat">
+                    <span>Visitantes</span>
+                    <strong>0</strong>
+                </div>
+
+                <div class="stat">
+                    <span>Vendas</span>
+                    <strong>0</strong>
+                </div>
+
+                <div class="stat">
+                    <span>Receita</span>
+                    <strong>0,00 €</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            © 2026 AION HUB — Tecnologia para o dia a dia
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
